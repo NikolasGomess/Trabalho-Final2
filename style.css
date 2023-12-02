@@ -1,7 +1,7 @@
 header {
     background-color: black;
     height: 10vh;
-    display: flex;
+    display:block;
     justify-content: space-between;
     align-items: center;
 }
@@ -30,10 +30,33 @@ header h2 {
     color: purple;
 }
 
-img {
-    width: 300px;
-    height: 300px;
-    display: flex;
-    justify-content: end;
+.card {
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 10px;
+    margin: 10px;
+    width: 400px;
+    height: 400px;
+    text-align: center;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    display: inline-block;
+    object-fit: cover;
 }
 
+.card h3 {
+    margin-top: 0;
+}
+
+.card p {
+    color: #ffffff;
+}
+
+.imagem {
+    width: 240px;
+    height: 230px;
+    object-fit: cover;
+}
+
+body {
+    background-color: rgb(47, 47, 47);
+}
